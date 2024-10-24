@@ -15,8 +15,7 @@ export const fetchExercises = async () => {
       throw new Error("Error fetching exercises");
     }
 
-    const data = await response.json();
-    return data;
+    return await response.json();
   } catch (error) {
     console.error("Error:", error);
     return [];

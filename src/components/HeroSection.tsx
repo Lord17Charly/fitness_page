@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="container">
         <h1 className="display-4">Prueba algo nuevo</h1>
         <p className="lead">Entra al mundo fitness HOY.</p>
-        <a href="#classes" className="btn btn-primary btn-lg">
+        <a href="personal-training" className="btn btn-primary btn-lg">
           Empezar
         </a>
       </div>
